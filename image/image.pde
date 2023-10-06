@@ -31,7 +31,11 @@ void setup() {
     backgroundImageY = appHeight*0;
     backgroundImageWidth = appWidth-1;
     backgroundImageHeight = appHeight-1;
-    picBackground = loadImage("../images used/eid.jpg");
+    String up = "..";
+    String open = "/";
+    String imagesPath = up + open;
+    String imagesUsed = "imagesUsed";
+    picBackground = loadImage( imagesPath + imagesUsed + "/eid.jpg");
     //
     //DIVs
     //rect( backgroundImageX, backgroundImageY, backgroundImageWidth, backgroundImageHeight );
